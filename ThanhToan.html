@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="./css/thanhToan.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row text-black p-4  menu">
+                    <div class="col-sm-2">
+                        <span>
+                            <a href="./index.html" class="navbar navbar-brand"><h1>H&H</h1></a>
+                        </span>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="navbar justify-content-start">
+                            <a href="./san_pham.html" class="nav-link">NAM</a>
+                            <a href="./san_pham.html" class="nav-link">NỮ</a>
+                            <a href="./san_pham.html" class="nav-link">NEW</a>
+                            <a href="./san_pham.html" class="nav-link">BEST</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" placeholder="Tìm kiếm" class="form-control">
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="navbar">
+                            <a href="./đăng_kí.html">
+                                <i class="fa-regular fa-user"></i>
+                            </a>
+                            <a href="./trang_yêu_thích.html">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                            <a href="./GioHang.html">
+                                <i class="fa-brands fa-shopify"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4>Thông tin nhận hàng</h4>
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control my-2" placeholder="Họ tên">
+                            <input type="tel" class="form-control my-2" placeholder="Số điện thoại">
+                            <input type="email" class="form-control my-2" placeholder="Email">
+                            <input type="text" class="form-control my-2" placeholder="Địa chỉ">
+                            <select name="Tỉnh thành" id="" class="form-control my-2" >
+                                <option value="">Chọn thành phố</option>
+                                <option value="">TP Hồ Chí minh</option>
+                                <option value="">Hà Nội</option>
+                                <option value="">Huế</option>
+                                <option value="">Cần Thơ</option>
+                                <option value="">Quãng Trị</option>
+                            </select>
+                            <select name="Tỉnh thành" id="" class="form-control my-2" >
+                                <option value="">Chọn Quận huyện</option>
+                                <option value="">Quận 1</option>
+                                <option value="">Quận 5</option>
+                                <option value="">Quận Phú Nhuận</option>
+                                <option value="">Quận Bình Thạnh</option>
+                                <option value="">Quận Gò Vấp</option>
+                            </select>
+                            <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Ghi chú"></textarea>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row ">
+                        <div class="col-sm-12">
+                            <h4>Vận chuyển</h4>
+                            <div>
+                                <input type="radio" name="vanChuyen" id="tanNoi">
+                                <label for="tanNoi" class="mx-2">Giao hàng tận nơi</label>
+                                <input type="radio" name="vanChuyen" id="nhanh" class="mx-3">
+                                <label for="nhanh" class="mx-2">Giao hàng nhanh</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="vanChuyen" id="tietKiem">
+                                <label for="tietKiem" class="mx-2">Giao hàng tiết kiệm</label>
+                                <input type="radio" name="vanChuyen" id="hoaToc" class="mx-2">
+                                <label for="hoaToc" class="mx-2">Giao hàng hỏa tốc</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 class="title mt-3">Thanh toán</h4>
+                            <div class="row border p-2 mb-1 thanhToan">
+                                <div class="col-sm-8">
+                                    <input type="radio" name="" id="fundiin">
+                                    <label for="fundiin">Fundiin - Mua trả sau 0% lãi</label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="./image/tt1.png" alt="" height="40px">
+                                </div>
+                                
+
+                            </div>
+                            <div class="row border p-2 mb-1 thanhToan">
+                                <div class="col-sm-8">
+                                    <input type="radio" name="" id="fundiin">
+                                    <label for="fundiin">Fundiin - Mua trả sau 0% lãi</label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="./image/tt2.png" alt="" height="40px">
+                                </div>
+                                
+
+                            </div>
+                            <div class="row border p-2 mb-1 thanhToan">
+                                <div class="col-sm-8">
+                                    <input type="radio" name="" id="fundiin">
+                                    <label for="fundiin">Fundiin - Mua trả sau 0% lãi</label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="./image/tt3.png" alt="" height="30px">
+                                </div>
+                                
+
+                            </div>
+                            <div class="row border p-2 mb-1 thanhToan">
+                                <div class="col-sm-8">
+                                    <input type="radio" name="" id="fundiin">
+                                    <label for="fundiin">Fundiin - Mua trả sau 0% lãi</label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="./image/tt3.png" alt="" height="30px">
+                                </div>
+                                
+
+                            </div>
+                            <div class="row border p-2 mb-1 thanhToan">
+                                <div class="col-sm-8">
+                                    <input type="radio" name="" id="fundiin">
+                                    <label for="fundiin">Fundiin - Mua trả sau 0% lãi</label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="./image/tt4.png" alt="" height="40px">
+                                </div>
+                                
+
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="col-sm-4 pl-5 pt-2 bg-light">
+                    <h4>Đơn hàng (3 sản phẩm)</h4>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="./image/gh1.png" alt="" width="100" class="img border rounded-2">
+                        </div>
+                        <div class="col-9">
+                            <div> <b>NEWLAB Designs Premium Sneakers</b></div>
+                            <div class="infor">
+                                <span>38/WHITE</span>
+                                <span>1.200.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="./image/gh2.png" alt="" width="100" class="img border rounded-2">
+                        </div>
+                        <div class="col-9">
+                            <div> <b>NEWLAB Designs Premium Sneakers</b></div>
+                            <div class="infor">
+                                <span>38/WHITE</span>
+                                <span>1.200.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="./image/gh3.png" alt="" width="100" class="img border rounded-2">
+                        </div>
+                        <div class="col-9">
+                            <div> <b>NEWLAB Designs Premium Sneakers</b></div>
+                            <div class="infor">
+                                <span>38/WHITE</span>
+                                <span>1.200.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <input type="text" placeholder="Nhập mã giảm giá" class="form-control">
+
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#" class="btn btn-secondary">Áp dụng</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row tongTien">
+                        <div class="col-sm-12 phi">
+                            <b>Tạm tính: </b>
+                            <span>3.600.000</span>
+                        </div>
+                        <div class="col-sm-12 phi">
+                            <b>Phí vận chuyển: </b>
+                            <span>30.000</span>
+                        </div>
+                        <hr>
+                        <div class="col-sm-12 phi">
+                            <b>Tổng thanh toán: </b>
+                            <span>3.630.000</span>
+                        </div>
+                        <div class="col-sm-12 my-5 phi">
+                            <a href="./GioHang.html" class="nav-link"> <b>< Quay về giỏ hàng</b></a>
+                            <a href="#" class="btn btn-dark">ĐẶT HÀNG</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    
+    <section>
+        <div class="container-fluid">
+            <div class="footer">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="col-sm-3">
+                            <span><h1>
+                                H&H
+                            </h1></span>
+                            <h5>Cửa hàng giày thể thao H&H Việt Nam</h5>
+                            <p>Mã số thuế: 0862701467</p>
+                            <p>Văn phòng đại diện:H&H tầng 19, tòa nhà Bitechco, quận 1, tp Hồ Chí Minh</p>
+                            <h5 class="fw-bold">THAM GIA NHẬN TIN TỨC CẬP NHẬT TỪ CHÚNG TÔI</h5>
+                            <input class="form-control" type="text" placeholder="Nhập email của bạn">
+                            <button class="btn btn-warning m-3">Đăng kí</button>
+                        </div>
+                        <div class="col-sm-3">
+                        
+                            <h5>Thông tin cửa hàng</h5>
+                            <p class="fw-bold">CHI NHÁNH THỨ 1</p>
+                            <p>525 Nguyễn Ảnh Thủ, phường Hiệp Thành, quận 12, tp.Hồ chí Minh </p>
+                            <p class="fw-bold">CHI NHÁNH THỨ 2</p>
+                            <p>35 Nguyễn Oanh, phường 4, quận Gò Vấp, tp.Hồ chí Minh </p>
+                            <p class="fw-bold">CHI NHÁNH THỨ 3</p>
+                            <p>56 Nơ Trang Long, phường 12, quận Bình Thạnh, tp.Hồ chí Minh </p>
+                            <p class="fw-bold">CHI NHÁNH THỨ 4</p>
+                            <p>636 Hai Bà Trưng, phường Dakao, quận 1, tp.Hồ chí Minh </p>
+                        </div>
+                        <div class="col-sm-3">
+                            <ul>
+                                <h5>Chính sách khách hàng</h5>
+                                <li>
+                                    <a class="nav-link" href="#">Chính sách khách hàng thân thiết</a>
+                                 </li>
+                                <li><a class="nav-link" href="#">Chính sách đổi trả</a></li>
+                                <li> <a class="nav-link" href="#">Chính sách bảo hành</a></li>
+                                <li> <a class="nav-link" href="#">Chính sách bảo mật</a></li>
+                                <li> <a class="nav-link" href="#">Câu hỏi thường gặp</a></li>
+                                <li>  <a class="nav-link" href="#">Hướng dẫn mua hàng online</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Kết nối với chúng tôi</h5>
+                            <p> <span class="fw-bold">Email:</span>
+                                <br>
+                              <span>  Trannguyenthanhhaupro09@gmail.com </span>
+                            </p>
+
+                            <p> <span class="fw-bold">Tel:</span>
+                                <br>
+                              <span>  0862 701 467 </span>
+                            </p>
+                            
+                            <p class="fw-bold">Mạng xã hội:</p>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-tiktok"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="./scripts/gioHang.js"></script>
+</body>
+</html>

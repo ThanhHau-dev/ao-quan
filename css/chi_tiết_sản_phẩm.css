@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a{
+    padding-right: 10px;
+}
+
+.header i{
+    font-size: 20px;
+}
+
+/* span{
+    font-size: 37px;
+} */
+
+.main img{
+    padding-top: 20px;
+}
+
+.mota{
+    margin-top: 90px;
+}
+
+.btn{
+    border: 2px;
+    border-color: #fbff00;
+}
+
+.shopping button{
+    background-color: #222831;
+    color:white;
+}
+
+.spxemcung{
+    text-align: center;
+}
+
+.main2 img{
+    height: 320px;
+    object-fit: cover;
+}
+
+.main2 h4{
+    padding:10px;
+}
+
+.main2 p{
+    padding: 10px;
+}
+
+
+/* .card-text{
+    padding: 15px;
+    padding-top: 1px;
+}
+
+.card-title{
+    padding-top: 12px;
+    padding: 20px;
+} */
+
+.footer{
+    background-color: 
+    #f8f8f8;
+}
+
+.footer h5{
+    font-weight: bold;
+}
+
+.footer i{
+    font-size: 30px;
+    padding-right: 23px;
+}
+.header .container-fluid .menu{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 100000;
+}
+.product{
+    padding-top: 100px;
+}
+iframe{
+    overflow: hidden;
+}
+.img_s{
+    margin-right: 15px;
+}
+.main{
+    margin-bottom: 50px;
+}

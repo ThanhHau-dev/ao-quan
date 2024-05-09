@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a{
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header i{
+    font-size: 20px;
+}
+
+.header img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.solgan-header{
+    position: absolute;
+    top: 370px;
+    left: 13%;
+    font-size: 50px;
+}
+
+.menu{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.menu li{
+    margin-top: 20px;
+}
+
+.card{
+    border: none;
+    margin-top: 30px;
+}
+
+.btn{
+    color: white;
+}
+
+.card span{
+    font-size: 23px;
+}
+
+.card i{
+    font-size: 23px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.card p{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.card h5{
+    padding-left: 10px;
+}
+
+.input_item{
+    margin-bottom: 15px;
+}
+.filter{
+    background-color: rgb(247, 202, 105);
+}
+
+
+.card i{
+    font-size: 23px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.card p{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.card h5{
+    padding-left: 10px;
+    text-decoration: line-through;
+}
+
+.card h4{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color: 
+    #f8f8f8;
+}
+
+.footer h5{
+    font-weight: bold;
+}
+
+.footer i{
+    font-size: 30px;
+    padding-right: 23px;
+}
+
+.header .container-fluid .menu{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 100000;
+}
+
+section .container .filter{
+    height: 500px;
+    position: sticky;
+    top: 120px;
+    z-index: 10000;
+}

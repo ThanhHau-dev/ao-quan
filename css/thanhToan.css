@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a{
+    padding-right: 10px;
+}
+
+.header i{
+    font-size: 20px;
+}
+.main{
+    padding-top: 130px;
+}
+hr{
+    border: 1px dashed gray;
+}
+
+.infor{
+    display: flex;
+    justify-content: space-between;
+}
+.phi{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: 
+    #f8f8f8;
+}
+
+.footer h5{
+    font-weight: bold;
+}
+
+.footer i{
+    font-size: 30px;
+    padding-right: 23px;
+}
+
+.header .container-fluid .menu{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 100000;
+}
+
+section .container .filter{
+    height: 500px;
+    position: sticky;
+    top: 120px;
+    z-index: 10000;
+}

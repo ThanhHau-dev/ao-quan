@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row text-black p-4  menu">
+                    <div class="col-sm-2">
+                        <span>
+                            <a href="./index.html" class="navbar navbar-brand"><h1>H&H</h1></a>
+                        </span>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="navbar justify-content-start">
+                            <a href="./san_pham.html" class="nav-link">NAM</a>
+                            <a href="./san_pham.html" class="nav-link">NỮ</a>
+                            <a href="./san_pham.html" class="nav-link">NEW</a>
+                            <a href="./san_pham.html" class="nav-link">BEST</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" placeholder="Tìm kiếm" class="form-control">
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="navbar">
+                            <a id="user-open" href="#">
+                                <i class="fa-regular fa-user"></i>
+                            </a>
+                            <a href="./trang_yêu_thích.html">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                           <a href="GioHang.html">
+                            <i class="fa-brands fa-shopify"></i>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="./image/bg1.jpg" alt="Los Angeles" class="imgSlider">
+                    </div>
+              
+                    <div class="item">
+                      <img src="./image/bg2.jpg" alt="Chicago" class="imgSlider">
+                    </div>
+                  
+                    <div class="item">
+                      <img src="./image/bg3.jpg" alt="New york" class="imgSlider">
+                    </div>
+                  </div>
+              
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            <div class="slogan">
+                <h2 class="fw-bold">
+                    Những đôi giày thật tốt<br>
+                    Sẽ đem lại sự êm ái, <br>cho đôi chân của bạn !
+
+                </h2>
+                <a href="./san_pham.html">
+                    <button class="btn btn-header">Xem nhiều hơn tại đây >></button>
+                </a>
+            </div>
+
+            <!-- bắt đầu phần modal popup -->
+            <div id="modal-container">
+                <div class="modal-dangnhap mt-5">
+                    <div class="row">
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-4 modal-dangnhap-main">
+                            <h3>Đăng nhập</h3>
+                            <input id="email" class="form-control mt-3 input-login-username" placeholder="Email hoặc số điện thoại">
+                            <input id="password" class="form-control mt-3 input-login-password" placeholder="Mật khẩu">
+                            <button class="btn btn-warning mt-3 login__signInButton">Đăng nhập</button>
+                            <hr>
+                           <div class="row">
+                            <div class="col-sm-9">
+                                <a href="./đăng_kí.html">Tạo tài khoản mới</a>
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn" id="user-close">Đóng</button>
+                            </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-4"></div>
+                    </div>
+                </div>
+            </div>
+    
+
+        </div>
+    </header>
+
+    <section class="pt-5">  <!--Các sự kiện đang diễn ra ở cửa hàng-->
+        <div class="main1">
+            <h1 class="p-4 fw-bold">Các chương trình khuyến mãi</h1>
+            <div class="container">
+              
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card text-white">
+                            <img src="image/sale-khuyenmai1.jpg" width="100%">
+                            <div class="card-img-overlay">
+                                <a href="./san_pham_sale.html">
+                                    <button class="btn btn-main fw-bold">XEM NGAY</button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-white">
+                            <img src="image/sale-khuyenmai2.jpg" width="100%">
+                            <div class="card-img-overlay">
+                                <a href="./san_pham_sale.html">
+                                    <button class="btn btn-main fw-bold">XEM NGAY</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-white">
+                            <img src="image/sale-khuyenmai3.jpg" width="100%">
+                            <div class="card-img-overlay">
+                                <a href="./san_pham_sale.html">
+                                    <button class="btn btn-main fw-bold">XEM NGAY</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5">
+        <h1 class="pt-4 mx-5 fw-bold">About Me</h1>
+        <div class="container-fluid p-5">
+            <a href="./information_about_us.html">
+                <img src="image/bg-main.jpg " alt="hình ảnh" width="100%" >
+            </a>
+        </div>
+    </section>
+
+    <section class="pt-5">
+        <h1 class="p-4 fw-bold">Sản phẩm</h1>
+        <div class="container">
+            <div class="main2">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="./chi_tiết_sản_phẩm.html">
+                            <div class="card">
+                                <img src="image/adidas bg-white.jpg" width="100%">
+                                <h4 class="card-title">Adidas</h4>
+                                <p class="card-text">Đặc tính của giày thể thao bao gồm đề mềm, thích hợp cho động tác chạy, và khả năng hấp tác động</p>
+                                <h5 class="fw-bold">4.100.000 vnđ</h5>
+                            </div>
+                        </a>
+                       
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="./chi_tiết_sản_phẩm.html">
+                            <div class="card">
+                                <img src="image/jordan bgwhite.jpg" width="100%">
+                                <h4 class="card-title">Jordan</h4>
+                                <p class="card-text">Đặc tính của giày thể thao bao gồm đề mềm, thích hợp cho động tác chạy, và khả năng hấp tác động</p>
+                                <h5 class="fw-bold">2.400.000 vnđ</h5>
+                            </div>
+                        </a>
+                      
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="./chi_tiết_sản_phẩm.html">
+                            <div class="card">
+                                <img src="image/convaer bgwhite.webp" width="100%">
+                                <h4 class="card-title">Convaer</h4>
+                                <p class="card-text">Đặc tính của giày thể thao bao gồm đề mềm, thích hợp cho động tác chạy, và khả năng hấp tác động</p>
+                                <h5 class="fw-bold">1.900.000 vnđ</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="./chi_tiết_sản_phẩm.html">
+                            <div class="card">
+                                <img src="image/mlb2 bgwhite.webp" width="100%">
+                                <h4 class="card-title">MLB</h4>
+                                <p class="card-text">Đặc tính của giày thể thao bao gồm đề mềm, thích hợp cho động tác chạy, và khả năng hấp tác động</p>
+                                <h5 class="fw-bold">2.500.000 vnđ</h5>
+                            </div>
+                        </a>
+                       
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5"></div>
+                    <div class="col-sm-2 p-5">
+                       
+                        <a href="./san_pham.html">
+                            <button class="btn btn-main2">XEM THÊM</button>
+                        </a>
+                    </div>
+                    <div class="col-sm-5"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+       
+        <div class="container">
+            <div class="main3">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="image/bg-main-1.webp" width="100%">
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="image/bg-main-2.webp" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5">
+        <h1 class="p-4 fw-bold">Thời trang cùng người nổi tiếng</h1>
+        <div class="main4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card text-white">
+                            <img src="image/tiến dũng.webp" width="100%">
+                            <div class="card-img-overlay">
+                                <a href="./blog.html">
+                                    <button class="btn btn-main4 fw-bold">XEM NGAY</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-white">
+                            <img src="image/tiến dũng 3.webp" width="100%">
+                            <div class="card-img-overlay">
+                                <a href="./blog.html">
+                                    <button class="btn btn-main4 fw-bold">XEM NGAY</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-white">
+                            <img src="image/Tiến dũng 2.webp" width="100%">
+                            <div class="card-img-overlay">
+                                <a href="./blog.html">
+                                    <button class="btn btn-main4 fw-bold">XEM NGAY</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="footer">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="col-sm-3">
+                            <span><h1>
+                                H&H
+                            </h1></span>
+                            <h5>Cửa hàng giày thể thao H&H Việt Nam</h5>
+                            <p>Mã số thuế: 0862701467</p>
+                            <p>Văn phòng đại diện:H&H tầng 19, tòa nhà Bitechco, quận 1, tp Hồ Chí Minh</p>
+                            <h5 class="fw-bold">THAM GIA NHẬN TIN TỨC CẬP NHẬT TỪ CHÚNG TÔI</h5>
+                            <input class="form-control" type="text" placeholder="Nhập email của bạn">
+                            <button class="btn btn-warning m-3">Đăng kí</button>
+                        </div>
+                        <div class="col-sm-3">
+                        
+                            <h5>Thông tin cửa hàng</h5>
+                            <p class="fw-bold">CHI NHÁNH THỨ 1</p>
+                            <p>525 Nguyễn Ảnh Thủ, phường Hiệp Thành, quận 12, tp.Hồ chí Minh </p>
+                            <p class="fw-bold">CHI NHÁNH THỨ 2</p>
+                            <p>35 Nguyễn Oanh, phường 4, quận Gò Vấp, tp.Hồ chí Minh </p>
+                            <p class="fw-bold">CHI NHÁNH THỨ 3</p>
+                            <p>56 Nơ Trang Long, phường 12, quận Bình Thạnh, tp.Hồ chí Minh </p>
+                            <p class="fw-bold">CHI NHÁNH THỨ 4</p>
+                            <p>636 Hai Bà Trưng, phường Dakao, quận 1, tp.Hồ chí Minh </p>
+                        </div>
+                        <div class="col-sm-3">
+                            <ul>
+                                <h5>Chính sách khách hàng</h5>
+                                <li>
+                                    <a class="nav-link" href="#">Chính sách khách hàng thân thiết</a>
+                                 </li>
+                                <li><a class="nav-link" href="#">Chính sách đổi trả</a></li>
+                                <li> <a class="nav-link" href="#">Chính sách bảo hành</a></li>
+                                <li> <a class="nav-link" href="#">Chính sách bảo mật</a></li>
+                                <li> <a class="nav-link" href="#">Câu hỏi thường gặp</a></li>
+                                <li>  <a class="nav-link" href="#">Hướng dẫn mua hàng online</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Kết nối với chúng tôi</h5>
+                            <p> <span class="fw-bold">Email:</span>
+                                <br>
+                              <span>  Trannguyenthanhhaupro09@gmail.com </span>
+                            </p>
+
+                            <p> <span class="fw-bold">Tel:</span>
+                                <br>
+                              <span>  0862 701 467 </span>
+                            </p>
+                            
+                            <p class="fw-bold">Mạng xã hội:</p>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-tiktok"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      <!-- phần javascrip cho modal -->
+      <script>
+        const user_open = document.getElementById('user-open');
+        const user_close = document.getElementById('user-close');
+        const modal_container = document.getElementById('modal-container');
+        user_open.addEventListener('click',  ()=>{
+            modal_container.classList.add('show');
+        });
+
+        user_close.addEventListener('click',  ()=>{
+            modal_container.classList.remove('show');
+        });
+    </script>
+
+    <!-- phần javascript cho modal đăng nhập -->
+    <script>
+        // validation form login
+const inputUsername = document.querySelector(".input-login-username");
+const inputPassword = document.querySelector(".input-login-password");
+const btnLogin = document.querySelector(".login__signInButton");
+
+// validation form login
+
+btnLogin.addEventListener("click", (e) => {
+  e.preventDefault();
+  if (inputUsername.value === "" || inputPassword.value === "") {
+    alert("vui lòng không để trống");
+  } else {
+    const user = JSON.parse(localStorage.getItem(inputUsername.value));
+    if (
+      user.username === inputUsername.value &&
+      user.password === inputPassword.value
+    ) {
+      alert("Đăng Nhập Thành Công");
+      window.location.href = "index.html";
+    } else {
+      alert("Đăng Nhập Thất Bại");
+    }
+  }
+});
+
+    </script>
+
+
+</body>
+</html>
